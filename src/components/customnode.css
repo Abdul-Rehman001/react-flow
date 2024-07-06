@@ -97,7 +97,6 @@
     right: -5px;
 }
 
-/* Adjust handle positions for each option */
 .react-flow__handle-right[data-handleid$="-Excellent"] {
     top: calc(70% - 30px);
 }

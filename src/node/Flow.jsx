@@ -14,10 +14,12 @@ import "./flow.css";
 import CustomNode from "../components/CustomNode";
 import Sidebar from "../components/Sidebar";
 
+//Using Custom Node
 const nodeTypes = {
   customNode: CustomNode,
 };
 
+//Function to handle all the edges and nodes with drag and drop
 const Flow = () => {
   const [nodes, setNodes] = useState([]);
   const [edges, setEdges] = useState([]);
